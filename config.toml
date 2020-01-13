@@ -2,7 +2,7 @@ baseURL = "https://www.tyma.com/"
 languageCode = "en-us"
 title = "Paul Tyma"
 subtitle     = "The Next Big Thing"
-theme = 'hugo-redlounge'
+theme = 'diary'
 
 canonifyURLs    = true
 disqusShortname = "paultyma"

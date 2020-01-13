@@ -1,6 +1,6 @@
 +++
 author = ["Paul Tyma"]
-lastmod = 2020-01-12T21:09:30-05:00
+lastmod = 2020-01-13T12:00:03-05:00
 draft = false
 +++
 
@@ -24,3 +24,14 @@ You'd get true as every character in string2 is in string1. If the two strings w
 ### The Young Man's Business Model {#the-young-man-s-business-model}
 
 so i said.. hiya
+You'd get true as every character in string2 is in string1. If the two strings were:
+
+
+### Post Sub-Heading {#post-sub-heading}
+
+This is another section within the post.
+
+
+### <span class="org-todo todo TODO">TODO</span> Draft Post Title {#draft-post-title}
+
+This article **will** be exported but will be marked `draft = true` in the front matter.
