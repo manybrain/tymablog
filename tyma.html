@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2020-01-12 Sun 20:23 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Paul Tyma" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orge144250">1. Pages</a>
+<ul>
+<li><a href="#org1e7177b">1.1. Page Title</a></li>
+</ul>
+</li>
+<li><a href="#org527a609">2. Posts</a>
+<ul>
+<li>
+<ul>
+<li><a href="#org5f4d110">2.0.1. A Google Interviewing Story</a></li>
+<li><a href="#orge59d147">2.0.2. <span class="todo TODO">TODO</span> Draft Post Title</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge144250" class="outline-2">
+<h2 id="orge144250"><span class="section-number-2">1</span> Pages</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org1e7177b" class="outline-3">
+<h3 id="org1e7177b"><span class="section-number-3">1.1</span> Page Title</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Page content
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org527a609" class="outline-2">
+<h2 id="org527a609"><span class="section-number-2">2</span> Posts</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org5f4d110" class="outline-4">
+<h4 id="org5f4d110"><span class="section-number-4">2.0.1</span> A Google Interviewing Story</h4>
+<div class="outline-text-4" id="text-2-0-1">
+<p>
+A few years ago I was entering the Silicon Valley job market and at that time looking for senior engineering positions. A good rule of thumb about interviewing if you haven't done it in awhile is to at least somewhat accept that you'll probably make a few mistakes on your first few tries. Simply, don't go for your dream job first. There are a million nuances to interviewing that you've forgotten, and a few up-front, not-so-important interviews first will educate (or re-educate) about them.
+</p>
+
+
+
+<p>
+One of the first places I interviewed was a company called gofish.com. As far as I know - gofish is an utterly different company now than when I interviewed there. I'm almost sure that everyone I met there no longer works there, so the actual company isn't terribly relevant to the story. But the interviewer is. My technical interview there was with a guy named Guy.
+</p>
+
+
+
+<p>
+Guy wore leather pants. Its a well-known fact that interviewers in leather pants are "extra" scary. And Guy was by no means a let down. He was also a technical crack-shot. And he was a technical crack-shot in leather pants - seriously, I didn't have a chance.
+</p>
+
+
+
+<p>
+One question he asked me I'll never forget. In truth, its a pretty innocuous question - but it's also pretty standard fare for silicon valley interviewing questions at that time.
+</p>
+
+
+
+<p>
+Here it is:
+</p>
+
+
+
+<p>
+Say you have one string of alphabetic characters, and say you have another, guaranteed smaller string of alphabetic characters. Algorithmically speaking, what's the fastest way to find out if all the characters in the smaller string are in the larger string?
+</p>
+
+
+
+<p>
+For example, if the two strings were:
+</p>
+
+
+
+
+<p>
+String 1: ABCDEFGHLMNOPQRS
+String 2: DCGSRQPOM
+</p>
+
+
+
+<p>
+You'd get true as every character in string2 is in string1. If the two strings were:
+</p>
+
+
+
+
+<p>
+String 1: ABCDEFGHLMNOPQRS
+String 2: DCGSRQPOZ
+</p>
+
+
+
+<p>
+you'd get false as Z isn't in the first string.
+</p>
+
+
+
+<p>
+When he asked the question I literally jumped to my feet. Finally, a question I could answer with some confidence. (Note my answer to him was solely considering the worst cases as there are plenty enough nuances there for an interview question).
+</p>
+
+
+
+<p>
+The naive way to do this operation would be to iterate over the 2nd string once for each character in the 1st string. That'd be O(n*m) in algorithm parlance where n is the length of string1 and m is the length of string2. Given the strings in our above example, thats 16*8 = 128 operations in the worst case.
+</p>
+
+
+
+<p>
+A slightly better way would be to sort each string and then do a stepwise iteration of both sorted strings simultaneously. Sorting both strings would be (in the general case) O(m log m) + O(n log n) and the linear scan after that is O(m+n). Again for our strings above, that would be 16*4 + 8*3 = 88 plus a linear scan of both strings at a cost of 16 + 8 = 24. Thats 88 + 24 = 112 total operations. Slightly better. (As the size of the strings grow, this method would start to look better and better)
+</p>
+
+
+
+<p>
+Finally, I told him the best method would simply be O(n+m). That is, iterate through the first string and put each character in a hashtable (cost of O(n) or 16). Then iterate the 2nd string and query the hashtable for each character you find. If its not found, you don't have a match. That would cost 8 operations - so both operations together is a total of 24 operations. Not bad and way better than the other solutions.
+</p>
+
+
+
+<p>
+Guy wasn't impressed. He showed it by rustling his leather pants a bit. "Can you do better?" he asked.
+</p>
+
+
+
+<p>
+What the heck? What did this guy want? I looked at the whiteboard and turned back to him. "No, O(n+m) is the best you have - I mean, you can't do this without looking at each character at least once - and this solution is looking at each character precisely once". The more I thought about it, the more I knew I was right.
+</p>
+
+
+
+<p>
+He stepped up to the whiteboard, "What if - given that we have a limited range of possible characters - I assigned each character of the alphabet to a prime number starting with 2 and going up from there. So A would be 2, and B would be 3, and C would be 5, etc. And then I went through the first string and 'multiplied' each character's prime number together. You'd end up with some big number right? And then - what if I iterated through the 2nd string and 'divided' by every character in there. If any division gave a remainder - you knew you didn't have a match. If there was no remainders through the whole process, you knew you had a subset. Would that work?"
+</p>
+
+
+
+<p>
+Every once in awhile - someone thinks so fantastically far out of your box you really need a minute to catch up. And now that he was standing, his leather pants weren't helping with this.
+</p>
+
+
+
+<p>
+Now mind you - Guy's solution (and of course, needless to say I doubt Guy was the first to ever think of this) was algorithmically speaking no better than mine. Even practically, you'd still probably use mine as it was more general and didn't make you deal with messy big integers. But on the "clever scale", Guy's was way, way, (way) more fun.
+</p>
+
+
+
+<p>
+I didn't get the job. Or I think they offered me some trial position or something that I refused, but it didn't matter. I was on to bigger and better things.
+</p>
+
+
+
+<p>
+Next, I interviewed at become.com. After a phone interview with the CTO he sent me a "programming assignment". It was a bit over the top - but in retrospect, worth the 3 days it took me to complete. I got an interview and a job offer - but the biggest value was what the programming assignment forced me to go out and learn. I had to build a web-crawler, a spellchecker/fixer, and a few other things. Good stuff. In the end however, I turned down the offer.
+</p>
+
+
+
+<p>
+Finally, I had an interview at Google. I've written before that the Google interviewing process does tend to live up to the hype. Its long - its rigorous and in all honesty, pretty darn fair. They do as best they can to learn about you and your abilities in an interview setting. By no means is that an exact science, but I'm convinced they give it a good try.
+</p>
+
+
+
+<p>
+My 4th technical interview at Google was with a woman engineer that honestly seemed a bit bored of interviewing. I had done well in all my previous interviews there and was feeling pretty good about my chances. I was confident that if I did nothing ridiculously silly - I'd get the job.
+</p>
+
+
+
+<p>
+She asked me a few softball questions about sorting or design, I'm not sure. But towards the end of our 45 minutes she told me "I have one more question. Let's say you have a string of alphabetic characters of some length. And you have another, shorter string of characters. How would you go about finding if all the characters in the smaller string are in the larger string?"
+</p>
+
+
+
+<p>
+Woah. Deja-Guy.
+</p>
+
+
+
+<p>
+Now, I could have probably stopped the interview right there. I could have said "Ahee! I just got this question a few weeks ago!" which was true. But when I was asked it a few weeks previous - I did get it right. It truly was a question I knew the answer to. Almost as if Guy had been one of my study partners for this very interview. And heck, people study interview questions on the internet all the time - by me non-chalantly answering the question I wouldn't be "lying" in any way. I did know the answer on my own!
+</p>
+
+
+
+<p>
+Now you might think, that in the instant after her asking, and before the moment of time that I began speaking that the entire last paragraph sequenced through my thought process rationalizing that I was, indeed, morally in the right to calmly answer the question and take credit for the answer. But sadly, that wasn't the case. Metaphorically, it was more like she asked the question and my brain immediately raised its hand and started shouting "Me! ooh! ooh! ooh me! I know! ask me!" My brain kept trying to wrestle mouth-control away from me (which happens plenty) but only by stalwart resolve was I able to retain composure.
+</p>
+
+
+
+<p>
+So I answered. Calmly. With almost unearthly grace and poise. And with a purposeful demeanor - with, I think, a confidence that only someone with complete and encyclopedic knowledge of this timeless and subtle problem would hold.
+</p>
+
+
+
+<p>
+I breezed over the naive solution as if it were unworthy. I mentioned the sorting solution as if it were wearing a red-shirt on an early episode of Star Trek. And finally, nonchalantly, almost as if I had invented all things good and algorithmically efficient, mentioned the O(n+m) linear solution.
+</p>
+
+
+
+<p>
+Now mind you - despite my apparent poise - the entire time I was fighting my brain who, internally, was screaming at me &#x2013; "TELL HER THE PRIME NUMBER SOLUTION YOU DIMWIT !"
+</p>
+
+
+
+<p>
+I ignored his pitiful pleas.
+</p>
+
+
+
+<p>
+As I finished the linear solution explanation, her head dutifully sank with complete non-surprise and she started writing in her notes. She had probably asked that question a hundred times before and I'd guess most people got it right. She probably wrote "yep. boring interview. got boring string question right. no surprise. boring guy but probable hire"
+</p>
+
+
+
+<p>
+I waited a moment. I let the suspense build as long as possible. I am truly convinced that even a moment longer would have resulted in my brain throwing itself fully into an embolism resulting in me blurting out unintelligible mis-facts about prime numbers.
+</p>
+
+
+
+<p>
+I broke the calm. "You know, there is another, somewhat cleverer solution"
+</p>
+
+
+
+<p>
+She lethargically looked up with only a glimmer of hope.
+</p>
+
+
+
+<p>
+"Given that our range of characters is limited. We could assign each character to a prime number starting at 2. After that we could 'multiply' each character of the large string and then 'divide' by each character of the small string. If the division operation left no remainder, we'd know we have a subset."
+</p>
+
+
+
+<p>
+I'm guessing that at this point, she looked pretty much as I did when Guy had said the same thing to me. General loss of composure, one pupil was dilated, slight spitting while talking.
+</p>
+
+
+
+<p>
+After a moment, she blurted "But.. wait that wouldn'&#x2026; yes it would! But how.. what if.. wow. wow. that works! Neat!"
+</p>
+
+
+
+<p>
+I sniffed triumphantly. I wrote down "She gave me a 'Neat!'" in my interviewing notes. I'm pretty sure I was getting the job before that question, but it was pretty clear that I was in for sure now. What's more, I'm pretty confident that I (or more precisely, Guy) had just made her day.
+</p>
+
+
+
+<p>
+I spent 3 years working at Google and had a great time. I quit in 2008 to CTO a new startup and have subsequently started another of my own after that. About a year ago I randomly met Guy at a start-up party who had no idea who I was but when I recounted this story he nearly peed his leather pants laughing.
+</p>
+
+
+
+<p>
+Again, if there is a moral here - it's to never chase your dream job before you chase a few you're willing to fail at. Apart from the interviewing experience you'll gain, you never know who might just get you ready for that big interview. In fact, that rule just might work for a lot of things in life.
+</p>
+
+
+
+<p>
+And seriously, if you get the chance and you're looking to hire a crackshot engineer - you could do far worse than hiring Guy. That dude knows things.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+(a bit of nitpicky technical detail for the fusty: characters may repeat so strings can be very long and thus counts must be kept. The naive solution can remove a character when it finds it from the large string to do that but its remains O(n*m). The hashtable solution can keep a count as the value of the key-&amp;gt;value. Guy's solution still works just fine)
+</p>
+
+
+
+<p>
+Edit: 11/30/10 - Guy from the story has found this post and gave some clarification in the comments. Worth the read.
+</p>
+
+<p>
+Content
+</p>
+
+<p>
+More Content
+</p>
+
+<div class="org-src-container">
+<pre class="src src-7ang">echo 'Some source code content'
+echo 'This line will be highlighted'
+echo "This one won't"
+</pre>
+</div>
+</div>
+
+<ol class="org-ol">
+<li><a id="org2124eaa"></a>Post Sub-Heading<br />
+<div class="outline-text-5" id="text-2-0-1-1">
+<p>
+This is another section within the post.
+</p>
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orge59d147" class="outline-4">
+<h4 id="orge59d147"><span class="section-number-4">2.0.2</span> <span class="todo TODO">TODO</span> Draft Post Title</h4>
+<div class="outline-text-4" id="text-2-0-2">
+<p>
+This article <b>will</b> be exported but will be marked <code>draft = true</code> in the front matter.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Paul Tyma</p>
+<p class="date">Created: 2020-01-12 Sun 20:23</p>
+<p class="validation"></p>
+</div>
+</body>
+</html>

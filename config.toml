@@ -1,0 +1,36 @@
+baseURL = "https://www.tyma.com/"
+languageCode = "en-us"
+title = "Paul Tyma"
+subtitle     = "The Next Big Thing"
+theme = 'hugo-redlounge'
+
+canonifyURLs    = true
+disqusShortname = "paultyma"
+uglyurls        = false
+
+pygmentsCodeFences = true
+
+[params]
+    author         = "Paul Tyma"
+    authorlinkedin = "https://www.linkedin.com/in/shanesveller"
+    authortwitter  = "paultyma"
+    copyright      = "&copy; 2020 Paul Tyma"
+    description    = "Entrepreneur"
+    sidebartitle   = "Paul Tyma"
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:title"
+
+[[menu.main]]
+    name = "Blog"
+    url  = "/blog/"
+
+[[menu.social]]
+    pre        = "<i class ='fa fa-linkedin'></i>"
+    url        = "https://www.linkedin.com/in/paul-tyma-8a9b9217/"
+    identifier = "linkedin"
+
+[[menu.social]]
+    pre        = "<i class ='fa fa-twitter'></i>"
+    url        = "http://www.twitter.com/paultyma"
+    identifier = "twitter"
