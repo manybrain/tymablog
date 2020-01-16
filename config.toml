@@ -3,10 +3,10 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 
 [permalinks]
-    dateFormat = "Jan 2, 2006"
     blog = "/:filename/"
 
 [params]
+    dateFormat = "Jan 2, 2006"
     homeText = "Blog from scratch"
 
 # See https://feathericons.com/
