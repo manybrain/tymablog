@@ -1,7 +1,9 @@
 ---
 title: Why We'll Never Meet Aliens
 description: We think a lot of ourselves
-date: 2020-01-10
+thumbnail: "img/alien.jpg"
+thumbalt: Image of Alien
+date: 2020-02-01
 categories:
   - "Philosophy"
 tags:
@@ -17,31 +19,35 @@ If you combine all our current knowledge of statistics and astronomy, it's nearl
 Despite where this article might lead, it isn't really about science - its about thinking big. Big enough to consider that if there are any aliens with the ability to come visit us, they would almost assuredly not care to.
 
 
-Stephen Hawking, the famous physicist, said in an interview that aliens visiting us would be similar to Christopher Columbus first landing on North America (not a good event for native Americans). His idea being that they would come for our resources, not with any particular purpose of friendship.
 
+Stephen Hawking, the famous physicist, said in an interview that aliens visiting us would be similar to Christopher Columbus first landing on North America (not a good event for the indigenous population). His idea being that they would come for our resources, not with any particular purpose of friendship.
 
+{{< rawhtml >}}
+<div style='float:left;padding:20px;text-align:center'>
+<img src="/img/alien.jpg" caption="We come in Pea... actually, we're not coming" alt="Image of Alien" title='Flickr UncoolBob'>
+<br>
+<span style='font-size:.6em;font-weight:bold;'>We Come in Pea... actually, we're not coming</span>
+</div>
+{{< /rawhtml >}}
 
 There are a few problems with that thought however. To introduce the idea, consider most any space movie in existence. Movies are of course, just movies, but they have shaped our thinking about meeting aliens. And small thinking it is indeed.
 
 
+From what movies tell us, it would seem that scientists from alien races pretty much focused on 3 primary technologies: faster-than-light travel, energy weapons, and artificial gravity. Movies don't highlight artificial gravity much because given our limited view, we pretty much expect gravity to just work and shooting a movie without it would be an unnecessary pain. So screw it, all movie alien races invented artificial gravity.
 
-From what movies tell us, it would seem that scientists from alien races pretty much focused on 3 primary technologies: faster-than-light travel, energy weapons, and artificial gravity. Movies don't highlight artificial gravity much  because given our limited view, we pretty much expect gravity to just work and shooting a movie without it would be an unnecessary pain. So, screw it, all movie alien races invented artificial gravity.
-
-
-
-There's a lot of implied technology thereafter (i.e. movie aliens don't often get sick and seem to not worry about eating) but that's not the fun stuff to think about. Lasers, phasers, and pew-pew-energy-blasters however, are fun to think about.
+There's a lot of implied technology thereafter (i.e. movie aliens don't often get sick and seem to not worry about eating) but that's not the fun stuff to think about. Lasers and energy-blasters however, *are* fun to think about.
 
 
 
-Did you ever wonder though - why these same scientists who made these neato energy weapons never bothered to develop targeting systems? They still rely on crappy biological reflexes to aim them. It's even sillier when alien robot/cyborgs that can outperform humans in every other way somehow still aren't so great at aiming their phaser zapper. They miss just as much as the humans do, and by that I mean - a lot. Of course, Star Wars would have been a short film if every shot stormtroopers made hit Han Solo but it would have made more sense.
+Did you ever wonder though - why these same scientists who made these neato energy weapons never bothered to develop targeting systems? They still rely on dismal biological reflexes to aim them. It's even sillier when alien robot/cyborgs that can outperform humans in every other way somehow still aren't so great at aiming their laser zapper. They miss their target just as much as the humans do, and by that I mean, a lot. Of course, Star Wars would have been a short film if every shot stormtroopers made hit Han Solo but it would have made more sense.
 
 
 
-Its actually rather ridiculous when you think about it - we (as in current state of human tech) already have automated targeting systems that work well with our doofy bullet-guns. We literally have targeting systems in existence today better than anything you saw in Star Wars.
+Its actually rather ridiculous when you think about it - we (as in current state of human tech) already have automated targeting systems that work well with our primitive bullet-guns. We already have targeting systems in existence today better than anything you saw in Star Wars.
 
 
 
-Truth is, given how far along we already are - by the time humans develop usable energy weapons - we'll have awesome targeting systems to match. We won't miss. It is with fantastically geeky sorrow that I proclaim that there'll never be an energy pistol or rifle I'll get to shoot. Sure, there'll be energy weapons. Sure, they'll shoot. But it won't be me "aiming" them. They'll darn well be perfectly happy aiming themselves. Chances are I'll probably just be running away.
+Truth is, given how far along we already are - by the time humans develop usable energy weapons - we'll have awesome targeting systems to match. We won't miss. It is with fantastically geeky sorrow that I proclaim that there'll never be an energy pistol or rifle I'll get to shoot. Sure, there will be energy weapons. Sure, they will shoot. But it won't be me aiming them. They'll darn well be perfectly happy aiming themselves. Chances are I'll probably just be running away.
 
 
 
@@ -53,15 +59,15 @@ If Stephen Hawking is right, then he is saying a race of aliens have, at a minim
 
 
 
-Another consideration that I rather enjoy is that if aliens would come here for resources, then that inherently implies an economic model into their decision. By definition, they need and value resources. Consequently, coming here to get them must have been their most economical choice. Getting them somewhere closer to home or manufacturing them must be more "expensive" (in some sense of the word) than the cost of them traveling all the way here, gathering our resources (probably atomizing us in the process), and flying them home.
+Another consideration that I rather enjoy is that if aliens would come here for resources, then that inherently implies an economic model into their decision. By definition, they need and value resources. Consequently, coming here to get them must have been their most economical choice. Getting resources somewhere closer to home or manufacturing them must be more "expensive" (in some sense of the word) than the cost of them traveling all the way here, gathering our resources (probably atomizing us in the process), and flying them home.
 
 
 
-While not impossible, that seems like an unlikely set of events - both technologically and economically. Again, even we have (expensively) already mastered alchemy. We even have the tech to create matter from energy. Imagine that tech in a hundred years, or two hundred, or whenever it is you think we'll be able to travel several light years for a mining expedition. What would be cheaper and better, forge the plutonium at home or send a galactic warship with thousands or warriors (and miners) to some far off planet?
+While not impossible, that seems like an unlikely set of events - both technologically and economically. Again, even we can (often expensively) synthesize chemicals when needed. Imagine that tech in a hundred years, or two hundred, or whenever it is you think we'll be able to travel several light years for a mining expedition. What would be cheaper and better, forge the plutonium at home or send a galactic warship with thousands or warriors (and miners) to some far off planet?
 
 
 
-From where we are now, we're not even close to being able to get to Proxima Centauri (the closest star to us besides the sun) much less a place where we think there's an actual planet. Even the technology required even to get us to Proxima Centauri in less than, say, 1000 years would require tech orders of magnitude from what we have. Propulsion, sustainability, radiation protection, nanotech - you name it.
+From where we are now, we're not even close to being able to get to Proxima Centauri (the closest star to us besides the sun). Even the technology required even to get us to Proxima Centauri in less than, say, 1000 years would require tech orders of magnitude from what we have. Propulsion, sustainability, radiation protection, nanotech - you name it.
 
 
 
@@ -69,7 +75,7 @@ Comparatively (and no disrespect to NASA) our existing space program involves us
 
 
 
-The idea that they might come to Earth to colonize hits a similar argument. You could argue that terraforming (or xenoforming for them I suppose) could be a technology more advanced than FTL travel. With that assumption, you could imagine an alien race within the technological sweet spot of knowing how to travel across the universe but not alter planets to suit their biological needs. Coming to colonize Earth (again while likely blasting us into being "no longer chemically active organic matter") could make sense. But this ignores the fact that several other requisite technologies would probably make their need to colonize obsolete.
+The idea that they might come to Earth to colonize hits a similar argument. You could argue that terraforming (or xenoforming for them I suppose) could be a technology more advanced than FTL travel. With that assumption, you could imagine an alien race within the technological sweet spot of knowing how to travel across the universe but not know how to alter planets to suit their biological needs. Coming to colonize Earth (with our presence probably treated as only a momentary nuisance) could make sense. But this ignores the fact that several other requisite technologies would probably make their need to colonize obsolete.
 
 
 
@@ -91,7 +97,7 @@ Well, maybe they want to study us? Well, maybe. It seems probable that if they w
 
 
 
-Oh yeah - and statistically speaking - what about statistics? Remember, my thesis is that all fields of science tend to advance simultaneously. That includes math and statistics. In order to make FTL ships, pew-pew-lasers and artificial gravity you're going to need math (and computers) that are light years ahead of ours.
+Oh yeah - and statistically speaking - what about statistics? Remember, my thesis is that all fields of science tend to advance simultaneously. That includes math and statistics. In order to make FTL ships, laser-guns, and artificial gravity you're going to need math (and computers) that are light years ahead of ours.
 
 
 
@@ -111,11 +117,11 @@ Even with that however, we're still thinking too small. It's not just their scie
 
 
 
-Twenty years ago if I asked you how many feet were in a mile (and you didn't know) you could go to a library and look it up. Ten years ago, you could go to a computer and google it. Today, you can literally ask your phone.
+Twenty years ago if I asked you how many feet were in a mile (and you didn't know) you could go to a library and look it up. Ten years ago, you could go to a computer and google it. Today, you can just ask your phone.
 
 
 
-It's not a stretch at all with the advent of wearable computing that coming soon - I can ask you that question and you'll instantly answer. The interesting part of that is that I won't know if you knew the answer or not - and more importantly, it won't matter. If information is reliably fed directly to you from an external source, there'll be no advantage to remembering anything.
+It's not a stretch at all with the advent of wearable computing that coming soon - I can ask you that question and you'll instantly answer. The interesting part of that is that I won't know if you knew the answer or instantly looked it up - and more importantly, it won't matter. If information is reliably fed directly to you from an external source, there'll be no advantage to remembering anything.
 
 
 
@@ -131,7 +137,7 @@ Now, let's leap ahead and think about what that looks like in 100 years. Or 1000
 
 
 
-The question of why aliens might "want to come here" is probably fundamentally flawed because we are forming that question from our current (tiny) viewpoint. The word "want" might not apply at all to someone 1000 times smarter than us.
+The question of why aliens might "want to come here" is probably fundamentally flawed because we are forming that question from our current, tiny, viewpoint. The word "want" might not apply at all to someone 1000 times smarter than us.
 
 
 
