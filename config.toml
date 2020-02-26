@@ -4,11 +4,11 @@ languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
-googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+googleAnalytics = "UA-170806-34" # Enable Google Analytics by entering your tracking id
 
 [Author] # Used in authorbox
   name = "Paul Tyma"
-  bio = "Paul Tyma has started 5 companies including Preemptive Solutions, Mailinator, and Refresh. He's worked at Google, Linkedin, and most recently was CTO of Lendingtree.com until September 2019. He's author of one of the original books on Java - the 'Java Primer Plus'. He received his Ph.D. in Computer Engineering from Syracuse University."
+  bio = "Paul Tyma has started 5 companies including Preemptive Solutions, Mailinator, and Refresh. He's worked at Google, Linkedin, and most recently was CTO of Lendingtree.com. He's author of one of the original books on Java - the 'Java Primer Plus'. He received his Ph.D. in Computer Engineering from Syracuse University."
   avatar = "img/avatar.png"
 
 [Params]
