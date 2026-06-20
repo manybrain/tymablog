@@ -1,54 +1,57 @@
 baseurl = "/"
-title = "Paul Tyma"
+title = "Tyma"
+description = "I've been thinking.."
 languageCode = "en-us"
-paginate = "10" # Number of posts per page
+paginate = "10"
 theme = "risotto"
+mainSections = ["post"] # Moved to the root level!
 
-#disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
-#googleAnalytics = "UA-170806-34" # Enable Google Analytics by entering your tracking id
-
-[Author] # Used in authorbox
+[author] # Lowercased
   name = "Paul Tyma"
-#  bio = "Paul Tyma has started 5 companies including Mailinator, Preemptive, and Refresh. He's worked at Google, Linkedin, and most recently was CTO of Lendingtree.com. He received his Ph.D. in Computer Engineering from Syracuse University."
   avatar = "img/avatar.png"
 
-[Params]
-  subtitle = "I've been thinking" # Subtitle of your site. Used in site header
-  description = "Paul Tyma's Blog" # Site description. Used in meta description
-  copyright = "Paul Tyma" # Footer copyright holder, otherwise will use site title
-  show_menu = true
-  summary = true
+[params] # Lowercased
+  subtitle = "I've been thinking"
+  description = "Tyma's Blog"
+  bio = "I've been thinking"
+  copyright = "Tyma"
+  opengraph = true
+  twitter_cards = true
+  readmore = false
+  authorbox = true
+  toc = false
+  post_navigation = true
+  post_meta = ["date", "categories", "translations"]
+  dateformat = "2006-01-02"
+  mathjax = true
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js"
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML"
+  highlightColor = "#e22d30"
+  customCSS = ["css/custom.css"]
+  customJS = ["js/custom.js"]
 
-  opengraph = true # Enable OpenGraph if true
-#  twitter_cards = true # Enable Twitter Cards if true
-  readmore = false # Show "Read more" button in list if true
-  authorbox = true # Show authorbox at bottom of pages if true
-  toc = false # Enable Table of Contents
-  post_navigation = true # Show post navigation at bottom of pages if true
-  post_meta = ["date", "categories", "translations"] # Order of post meta information
-  #mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
-  mainSections = ["post"] # Specify section pages to show on home page and the "Recent articles" widget
-  dateformat = "2006-01-02" # Change the format of dates
-  mathjax = true # Enable MathJax
-  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
-  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
-  highlightColor = "#e22d30" # Override highlight color
-  customCSS = ["css/custom.css"] # Include custom CSS files
-  customJS = ["js/custom.js"] # Include custom JS files
-
-[Params.sidebar]
-  home = "right" # Configure layout for home page
-  list = "left"  # Configure layout for list pages
-  single = false # Configure layout for single pages
-  # Enable widgets in given order
+[params.sidebar] # Lowercased
+  home = "right"
+  list = "left"
+  single = false
   widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
 
-[Params.widgets]
-  recent_num = 5 # Set the number of articles in the "Recent articles" widget
-  tags_counter = false # Enable counter for each tag in "Tags" widget
+[params.widgets] # Lowercased
+  recent_num = 5
+  tags_counter = false
 
-[Params.widgets.social]
-  # Enable parts of social widget
-#  twitter = "paultyma"
-#  linkedin = "paul-tyma-8a9b9217"
-#  email = "paul@tyma.com"
+[params.widgets.social] # Lowercased
+  linkedin = "paul-tyma-8a9b9217"
+
+[params.social]
+  linkedin = "paul-byron-tyma-8a9b9217"   # Just your LinkedIn identifier
+  email = "paul@tyma.com"                 # Your full email address
+  github = "paultyma"                     # Just your GitHub username (if you have one)
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 1
+
+
+

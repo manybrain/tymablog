@@ -13,7 +13,6 @@ mainSections = ["post"] # Moved to the root level!
 [params] # Lowercased
   subtitle = "I've been thinking"
   description = "Tyma's Blog"
-  bio = "I've been thinking"
   copyright = "Tyma"
   opengraph = true
   twitter_cards = true
@@ -30,23 +29,20 @@ mainSections = ["post"] # Moved to the root level!
   customCSS = ["css/custom.css"]
   customJS = ["js/custom.js"]
 
-[params.sidebar] # Lowercased
-  home = "right"
-  list = "left"
-  single = false
-  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+# --- DELETE OR REMOVE [params.sidebar] AND [params.widgets] SECTIONS ---
+# Risotto completely ignores those legacy Mainroad theme blocks.
 
-[params.widgets] # Lowercased
-  recent_num = 5
-  tags_counter = false
+# --- CHANGE THIS BLOCK TO PARAMS.ABOUT ---
+[params.about]
+  description = "I've been thinking"  # Risotto uses 'description' inside about for the text blurb
+  logo = "img/avatar.png"             # (Optional) This puts your avatar in the sidebar too!
 
-[params.widgets.social] # Lowercased
-  linkedin = "paul-tyma-8a9b9217"
+  # Move your social media handlers here, directly inside [params.about]
+  linkedin = "paul-byron-tyma-8a9b9217"   
+  email = "paul@tyma.com"                 
+  github = "paultyma"                     
 
 [[menu.main]]
   name = "Posts"
   url = "/posts/"
   weight = 1
-
-
-
