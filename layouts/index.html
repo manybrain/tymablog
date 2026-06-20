@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <div class="posts-list">
+    {{ range (.Paginate (where site.RegularPages "Section" "posts")).Pages }}
+      <article style="margin-bottom: 2.5rem;">
+        <h2 style="margin-bottom: 0.5rem;">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+        <time style="font-size: 0.9rem; color: #888;">{{ .Date.Format "2006-01-02" }}</time>
+        
+        <div class="post-summary" style="margin-top: 1rem; line-height: 1.6;">
+          {{ .Summary }}
+        </div>
+        
+        {{ if .Truncated }}
+          <a class="read-more" href="{{ .Permalink }}" style="display: inline-block; margin-top: 0.5rem; font-weight: bold;">Read more →</a>
+        {{ end }}
+      </article>
+    {{ end }}
+    {{ partial "pagination.html" . }}
+  </div>
+{{ end }}
