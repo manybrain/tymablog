@@ -5,7 +5,6 @@ languageCode = "en-us"
 paginate = "10"
 theme = "risotto"
 mainSections = ["post"] # Moved to the root level!
-publishDir = "docs"
 
 [author] # Lowercased
   name = "Paul Tyma"
