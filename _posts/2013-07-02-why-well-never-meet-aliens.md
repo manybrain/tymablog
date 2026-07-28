@@ -2,10 +2,7 @@
 layout: post
 title: Why We'll Never Meet Aliens
 description: We think a lot of ourselves
-thumbnail: "img/alien.jpg"
-thumbalt: Image of Alien
-thumbtitle: Flickr UncoolBob
-date: 2020-02-01
+date: 2013-07-02
 categories:
   - "Philosophy"
 tags:
