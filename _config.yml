@@ -1,6 +1,6 @@
 title: My Minimal Blog
 description: A simple place for my thoughts.
-theme: hacker
+theme: jekyll-theme-hacker
 
 # Helps Jekyll format URLs nicely
 permalink: /:title/
