@@ -1,6 +1,6 @@
 title: My Minimal Blog
 description: A simple place for my thoughts.
-theme: minimal
+theme: minima
 
 # Helps Jekyll format URLs nicely
 permalink: /:title/
