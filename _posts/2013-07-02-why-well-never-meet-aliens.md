@@ -24,13 +24,12 @@ Despite where this article might lead, it isn't really about science - its about
 
 Stephen Hawking, the famous physicist, said in an interview that aliens visiting us would be similar to Christopher Columbus first landing on North America (not a good event for the indigenous population). His idea being that they would come for our resources, not with any particular purpose of friendship.
 
-{{< rawhtml >}}
-<div style='float:left;padding:20px;text-align:center'>
-<img src="/img/alien.jpg" caption="We come in Pea... actually, we're not coming" alt="Image of Alien" title='Flickr UncoolBob'>
-<br>
-<span style='font-size:.6em;font-weight:bold;'>We Come in Pea... actually, we're not coming</span>
-</div>
-{{< /rawhtml >}}
+<figure style="float: left; margin: 0 1.5rem 1rem 0; max-width: 40%;">
+  <img src="/assets/images/alien.png" alt="Picture of an Alien">
+  <figcaption style="font-size: 0.85em; opacity: 0.8; text-align: center; margin-top: 0.4rem;">
+    We come in Pea... actually, we're not coming
+  </figcaption>
+</figure>
 
 There are a few problems with that thought however. To introduce the idea, consider most any space movie in existence. Movies are of course, just movies, but they have shaped our thinking about meeting aliens. And small thinking it is indeed.
 
