@@ -15,7 +15,7 @@ If you combine all our current knowledge of statistics and astronomy, it's nearl
 <!--more-->
 
 
-Despite where this article might lead, it isn't about science - its about thinking big. Big enough to consider that if there are any aliens with the ability to come visit us, they would almost assuredly not care to.
+Despite where this article might lead, it isn't about science - its about thinking big. Big enough to consider that if there are any aliens with the ability to come visit us, they would almost assuredly not want to.
 
 Stephen Hawking, the famous physicist, said in an interview that aliens visiting us would be similar to Christopher Columbus first landing on North America (not a good event for the indigenous population). His idea being that they would come for our resources, not with any particular purpose of friendship.
 
