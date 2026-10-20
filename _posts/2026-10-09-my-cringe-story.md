@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Story about Bob Cringely
+title: My friend Bob Cringely
 description: Bob Cringely died on Oct 3, 2026
 date: 2026-10-12
 categories:
@@ -42,7 +42,7 @@ I just took a look - and I have had 320 emails with Bob in the past 13 years. Mi
 
 Usually, the email chains started with Bob emailing me a wall-of-text about his new startup idea. While the first half of the email was about the idea, invariably, the 2nd half was about how much money it was going to make. I was always impressed at how "to the penny" he got with his projections for something that was basically an idea written on a virtual napkin. 
 
-Some ideas were good, and some were not so good. Through my career, I actually joined him in 2 ventures - home-account and Sonisafe.  I also have the pitch deck for Eldorado space and his LLM legal startup (which eventually morphed to 2Brains). This was a great honor in the beginning, especially as his fame grew. But all along the way, I felt Bob was missing the point.
+Some ideas were good, and some were not so good. Through my career, I actually joined him in 2 ventures - home-account and Sonisafe.  I have the pitch decks for a few, and the detailed descriptions of a bunch more ideas that maybe no one else has seen. This was a great honor in the beginning, especially as his fame grew. But all along the way, I felt Bob was missing the point.
 
 If you ever met Bob - or heck, just saw him in any of his TV specials, you could see Bob charmed everyone he met.  He was good-looking, disarming, and curious. He was also an excellent writer, but it was on the screen he really shined. He was comforting and fun to watch. He was fearless and made people feel special. He wasn't a "nerd" but if, like me, you were; he understood you and he made it OK. In fact, at times, he even made it look glamorous.
 
