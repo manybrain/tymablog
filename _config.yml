@@ -6,3 +6,5 @@ show_excerpts: true
 
 # Helps Jekyll format URLs nicely
 permalink: /:title/
+plugins:
+  - jekyll-feed

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: My friend Bob Cringely
+title: My Friend Bob Cringely
 description: Bob Cringely died on Oct 3, 2026
-date: 2026-10-12
+date: 2026-10-20
 categories:
   - "Bob Cringely"
 tags:
@@ -12,8 +12,11 @@ tags:
 In 1996, I was a Ph.D. student at Syracuse University. One evening I was sitting in my office and the phone rang:
 
 "Hello?"
+
 "Is this Paul Tyma?"
+
 "Yes?"
+
 Bob replied in very fast English, "This is Bob Cringely.  I just read 7 Java books and yours is the best."
 
 My first thought was "Huh, he actually said my last name correctly". But my quick 2nd thought was that there were not, in fact, 7 Java books in existence.  I did indeed write a Java book, but to my knowledge, mine was the 2nd on the market and it had just been released.  My Ph.D. advisor, Doug Lea, had been an early member of the Java project at Sun Microsystems.  He introduced Java (and the JVM) to all his grad students and I believe something like 4 of us wrote books piggybacking upon the hype at the time.
