@@ -63,7 +63,7 @@ I got a response 2 minutes later, "Why?".
 
 I spent the next hour writing an overly long and terribly rough email, in a half-awake, caffeine-induced state and sent it off. I woke up the next morning to Bob's new blog post - a rather lightly edited version of my rant!
 
-[Sharper Than Ever. Microsoft's C# Language Might Be the Death of Java, but Sun's the One to Blame]({% https://web.archive.org/web/20011103232550/http://www.pbs.org/cringely/pulpit/pulpit20011101.html %})
+[Sharper Than Ever. Microsoft's C# Language Might Be the Death of Java, but Sun's the One to Blame](https://web.archive.org/web/20011103232550/http://www.pbs.org/cringely/pulpit/pulpit20011101.html)
 
 I just remember being grateful he didn't mention me. But then, he called me later that day, "Sun is a bit unhappy with the blog post. I've been summoned to Sun Headquarters tomorrow and you're coming with me." 
 
@@ -85,10 +85,10 @@ I ended up with a total of about 8 minutes in the show alongside Mark Cuban, Joh
 
 **2026**
 
-Randomly, a few months ago I once again watched Bob's "Plane Crazy."  A classic.  And because of the comments surrounding his death I found that his special "The Transformation Age" is also on Youtube (in 8 or so separate videos). It's quintessential Cringe. I will really miss you Bob.
+Randomly, a few months ago I once again watched Bob's "Plane Crazy."  A classic.  And because of the comments surrounding his death I found that his special "The Transformation Age" is also on Youtube which I had never seen (in 8 or so separate videos). It's quintessential Cringe. I will really miss you Bob.
 
 
-[[Plane Crazy]] ({%  https://www.youtube.com/watch?v=rqxU4nnLkeA %})
+[[Plane Crazy]] (https://www.youtube.com/watch?v=rqxU4nnLkeA)
 
-[[Bob's The Transformation Age]] ({ %https://www.youtube.com/watch?v=5FuUcOF0WdQ %})
+[[Bob's The Transformation Age]] (https://www.youtube.com/watch?v=5FuUcOF0WdQ)
 
