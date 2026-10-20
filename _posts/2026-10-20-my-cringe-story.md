@@ -3,6 +3,7 @@ layout: post
 title: My Friend Bob Cringely
 description: Bob Cringely died on Oct 3, 2026
 date: 2026-10-20
+excerpt: In 1996, I was a Ph.D. student at Syracuse University. One evening I was sitting in my office and the phone rang, it was Bob Cringely. He spoke quickly, "I just read 7 Java books and yours is the best."
 categories:
   - "Bob Cringely"
 tags:
@@ -21,7 +22,7 @@ My first thought was "Huh. He actually said my last name correctly".
 
 But my quick 2nd thought was that there were not, in fact, 7 Java books in existence.  I did indeed write a Java book, but to my knowledge, mine was the 2nd on the market and even then, I'm not sure it was the best.  My Ph.D. advisor, Doug Lea, had been an early member of the Java project at Sun Microsystems.  He introduced Java (and the JVM) to all his grad students and I believe something like 4 of us wrote books piggybacking upon the hype at the time.
 
-In any case, as you might know, it is not common to get accolades or even much attention for writing a programming book[^1]. I had no idea who this "Bob Cringely" person was, but, um, Thanks! So glad you liked it - let's talk about how great it is some more! 
+In any case, as you might know, it is not common to get accolades or even much attention for writing a programming book[^1]. I had no idea who this "Bob Cringely" person was, but, um, Thanks! So glad you liked it - let's talk some more about how great it is!
 
 [^1]: I once did a Book Signing at the SD West conference; I believe in 1998. Mind you, I did a "Book Signing", not to be confused with a "Books Signing". I signed one book. I bet that copy is worth something.
 
