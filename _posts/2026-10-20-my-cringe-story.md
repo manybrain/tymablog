@@ -9,8 +9,7 @@ tags:
   - "Bob Cringely"
 ---
 
-In 1996, I was a Ph.D. student at Syracuse University. One evening I was sitting in my office and the phone rang:
-
+In 1996, I was a Ph.D. student at Syracuse University. One evening I was sitting in my office and the phone rang,__
 "Hello?"  
 "Is this Paul Tyma?"  
 "Yes?"  
@@ -36,7 +35,9 @@ Writing a programming book in the 1990's afforded many of the same benefits as t
 
 From there, Bob hired us to build him a system called (or codenamed?) "Pronto". 
 
-Pronto was to be the distribution future of print Magazines. The big idea was for customers (who were paper magazine subscribers) to install a small daemon process on their computer that would monitor for times where their Internet connection (i.e. often dialup modem at this point) was online but mostly idle. Our system would then slowly but persistently download their next month's issue of "Good Housekeeping" or "Car and Driver"".  Once it was fully downloaded, the daemon would lie in wait until 2am the next morning and send the PDF off to their home printer. The customer would wake up to be happily surprised by a fully printed copy of their magazine waiting for them! (we always seemed to ignore the challenges around the idea of having 100 loose-leaf, one-sided pieces of paper that were this month's issue of their favorite magazine).
+Pronto was to be the distribution future of print Magazines. The big idea was for customers (who were paper magazine subscribers) to install a small daemon process on their computer that would monitor for times where their Internet connection (i.e. often dialup modem at this point) was online but mostly idle. Our system would then slowly but persistently download their next month's issue of "Good Housekeeping" or "Car and Driver"".  Once it was fully downloaded, the daemon would lie in wait until 2am the next morning and send the PDF off to their home printer. The customer would wake up to be happily surprised by a fully printed copy of their magazine waiting for them![^2] 
+
+[^2]: We always seemed to ignore the challenges around the idea of having 100 loose-leaf, one-sided pieces of paper that were this month's issue of their favorite magazine.
 
 Like many at the time, Bob didn't believe that reading online would replace reading a full-color, paper magazine. But how that magazine got to your house could change, and that's where Pronto came in.
 
