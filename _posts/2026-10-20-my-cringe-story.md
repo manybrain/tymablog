@@ -11,21 +11,24 @@ tags:
 
 In 1996, I was a Ph.D. student at Syracuse University. One evening I was sitting in my office and the phone rang:
 
-"Hello?"
+"Hello?"  
+"Is this Paul Tyma?"  
+"Yes?"  
 
-"Is this Paul Tyma?"
+Bob replied in very fast English.  
+"This is Bob Cringely.  I just read 7 Java books and yours is the best."  
 
-"Yes?"
+My first thought was "Huh. He actually said my last name correctly".  
 
-Bob replied in very fast English, "This is Bob Cringely.  I just read 7 Java books and yours is the best."
-
-My first thought was "Huh, he actually said my last name correctly". But my quick 2nd thought was that there were not, in fact, 7 Java books in existence.  I did indeed write a Java book, but to my knowledge, mine was the 2nd on the market and it had just been released.  My Ph.D. advisor, Doug Lea, had been an early member of the Java project at Sun Microsystems.  He introduced Java (and the JVM) to all his grad students and I believe something like 4 of us wrote books piggybacking upon the hype at the time.
+But my quick 2nd thought was that there were not, in fact, 7 Java books in existence.  I did indeed write a Java book, but to my knowledge, mine was the 2nd on the market and even then, I'm not sure it was the best.  My Ph.D. advisor, Doug Lea, had been an early member of the Java project at Sun Microsystems.  He introduced Java (and the JVM) to all his grad students and I believe something like 4 of us wrote books piggybacking upon the hype at the time.
 
 In any case, as you might know, it is not common to get accolades or even much attention for writing a programming book[^1]. I had no idea who this "Bob Cringely" person was, but, um, Thanks! So glad you liked it - let's talk about how great it is some more! 
 
-I know now what I didn't know then - that Bob was way ahead of me. Bob probably pictured me as some lonely computer geek (or "nerd" in his parlance) sitting in a tiny office tip-tapping away at some code enjoying yesterday's pizza. He was right. He also knew computer nerds like me were typically a bit starving for attention, especially around anything related to computer-centric achievements. And again, Bob knew his audience.
+[^1]: I once did a Book Signing at the SD West conference; I believe in 1998. Mind you, I did a "Book Signing", not to be confused with a "Books Signing". I signed one book. I bet that copy is worth something.
 
-Bob continued, "Do you do Java programming too?"
+I didn't know it then, but Bob was way ahead of me. It's likely he pictured me as some lonely computer geek (or "nerd" in his parlance) sitting in a tiny office tip-tapping away at some code enjoying yesterday's pizza. (He was right). He also knew computer nerds like me were typically a bit starved for attention, especially around anything related to computer-centric achievements. Again, Bob knew his audience.
+
+He continued, "Do you do Java programming too?"
 
 Writing a programming book in the 1990's afforded many of the same benefits as today. In other words, nearly nothing. You sure weren't getting rich off writing books. But it did get me invites to teach Java at some Software Conferences. Which then got me invites to train Java to teams inside different companies. Because of that, my friend and I started a company around Java training. We hadn't done any contract programming until then, but we'd talked about it plenty.
 
@@ -84,14 +87,12 @@ He replied to the Producer, cc'ing me:
 
 I ended up with a total of about 8 minutes in the show alongside Mark Cuban, John Tesh, Ben Stein, and Wil Wheaton. Bob would have been way better.
 
-[^1] I once did a Book Signing at the SD West conference I believe in 1998. Mind you, I did a "Book Signing", not to be confused with a "Books Signing". I signed one book. I bet that copy is worth something.
-
 **2026**
 
 Randomly, a few months ago I once again watched Bob's "Plane Crazy."  A classic.  And because of the comments surrounding his death I found that his special "The Transformation Age" is also on Youtube which I had never seen (in 8 or so separate videos). It's quintessential Cringe. I will really miss you Bob.
 
 
-[[Plane Crazy]] (https://www.youtube.com/watch?v=rqxU4nnLkeA)
+[Plane Crazy] (https://www.youtube.com/watch?v=rqxU4nnLkeA)
 
-[[Bob's The Transformation Age]] (https://www.youtube.com/watch?v=5FuUcOF0WdQ)
+[Bob's The Transformation Age] (https://www.youtube.com/watch?v=5FuUcOF0WdQ)
 
