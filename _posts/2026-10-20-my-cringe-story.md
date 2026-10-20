@@ -90,7 +90,7 @@ I ended up with a total of about 8 minutes in the show alongside Mark Cuban, Joh
 
 **2026**
 
-Randomly, a few months ago I once again watched Bob's "Plane Crazy."  A classic.  And because of the comments surrounding his death I found that his special "The Transformation Age" is also on Youtube which I had never seen (in 8 or so separate videos). It's quintessential Cringe. I will really miss you Bob.
+Randomly, a few months ago I once again watched Bob's "Plane Crazy."  A classic.  And because of the comments surrounding his death I found that his special "The Transformation Age" is also on Youtube which I had never seen (in 8 or so separate videos). It's quintessential Cringe. 
 
 
 [Plane Crazy] (https://www.youtube.com/watch?v=rqxU4nnLkeA)
