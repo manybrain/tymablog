@@ -52,9 +52,10 @@ When I lived in San Francisco, he and I had lunch or dinner occasionally. He rea
 
 Goodbye Mr. Cringely. I'm very sorry to see you go. I will miss you. 
 
-[[A few more Cringe stories]]
+A few more Cringe stories
+-------------------------
 
-[[2001]]
+**2001**
 
 Right after the C# language was released (it must have been around 2001 or so?), I spent the evening and into the morning reading about it. Finally around 2am, with bleary eyes and a racing mind I emailed Bob - "Dotnet is going to squish Java".
 
@@ -70,7 +71,7 @@ The next day Bob and I went to Sun Microsystems. He and I sat in a room with Jon
 
 After that, Whenever I emailed him, I often tacked onto the bottom of my emails - "Do whatever you want with this email, but don't mention me. And know this email could be totally wrong or silly - either way, it's yours now".
 
-[[2004]] 
+**2004**
 
 In and around 2004 I was living in NYC and I got a forwarded email from Bob. It was a forward from a Producer at the TV network VH1 telling him they were doing a video series called "My Coolest Years" and had a special episode about "Geeks" and they needed a computer geek. They asked him if he wanted to be interviewed about what it was like being a "geek" in high school.
 
@@ -82,7 +83,7 @@ I ended up with a total of about 8 minutes in the show alongside Mark Cuban, Joh
 
 [^1] I once did a Book Signing at the SD West conference I believe in 1998. Mind you, I did a "Book Signing", not to be confused with a "Books Signing". I signed one book. I bet that copy is worth something.
 
-[[2026]]
+**2026**
 
 Randomly, a few months ago I once again watched Bob's "Plane Crazy."  A classic.  And because of the comments surrounding his death I found that his special "The Transformation Age" is also on Youtube (in 8 or so separate videos). It's quintessential Cringe. I will really miss you Bob.
 
