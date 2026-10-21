@@ -32,7 +32,7 @@ String 2: DCGSRQPOM
 ```
 
 You'd get **true** as every character in string2 is in string1 (order doesn't matter).  
-Hoever, if the two strings were:
+However, if the two strings were:
 
 ```
 String 1: ABCDEFGHLMNOPQRS
@@ -71,7 +71,7 @@ She asked me a few softball questions about sorting or design, I'm not sure. But
 
 Woah. Deja-Guy.
 
-Now, I could have probably stopped the interview right there. I could have said "Ahee! I just got this question a few weeks ago!" which was true. But when I was asked it a few weeks previous - I did get it right. It truly was a question I knew the answer to. Almost as if Guy had been one of my study partners for this very interview. And heck, people study interview questions on the internet all the time - by me non-chalantly answering the question I wouldn't be "lying" in any way. I did know the answer on my own!
+Now, I could have probably stopped the interview right there. I could have said "Ahee! I just got this question a few weeks ago!" which was true. But when I was asked it a few weeks previous - I did get it right. It truly was a question I knew the answer to. 
 
 Now you might think, that in the instant after her asking, and before the moment of time that I began speaking that the entire last paragraph sequenced through my thought process rationalizing that I was, indeed, morally in the right to calmly answer the question and take credit for the answer. But sadly, that wasn't the case. Metaphorically, it was more like she asked the question and my brain immediately raised its hand and started shouting "Me! ooh! ooh! ooh me! I know! ask me!" My brain kept trying to wrestle mouth-control away from me (which happens plenty) but only by stalwart resolve was I able to retain composure.
 
