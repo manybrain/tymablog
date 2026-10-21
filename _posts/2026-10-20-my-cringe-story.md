@@ -54,6 +54,8 @@ Some ideas were good, and some were not so good. Through my career, I actually j
 
 If you ever met Bob - or heck, just saw him in any of his TV specials, you could see Bob charmed everyone he met.  He was good-looking, disarming, and curious. He was also an excellent writer, but it was on the screen he really shined. He was comforting and fun to watch. He was fearless and made people feel special. He wasn't a "nerd" but if, like me, you were; he understood you and he made it OK. In fact, at times, he even made it look glamorous.
 
+Bob changed people's lives. His love for Technology was contagious and he inspired a lot of people to pursue a career in Tech. Reading his obituary comments gave me a renewed appreciation for his influence.
+
 Despite his innumerable gifts, Bob seemed to really want to be a superstar startup founder. I'm sure if one of his startup ideas had exploded, Bob would have filled the role fine. But to me - he was a pure natural in front of the camera. I always thought he should start a Youtube channel interviewing Silicon Valley celebrities. I sent him a few emails along those lines, but Bob would mostly just ignore me. He was usually too excited about his new/current startup idea.
 
 When I lived in San Francisco, he and I had lunch or dinner occasionally. He really was a Silicon Valley celebrity. When the inevitable person(s) would come up to him telling them they were a huge fan, he'd act like it the first time anyone ever recognized him. Every time. The TV Cringe instantly came to life and it was always a pleasure to watch.
@@ -94,7 +96,7 @@ I ended up with a total of about 8 minutes in the show alongside Mark Cuban, Joh
 Randomly, a few months ago I once again watched Bob's "Plane Crazy."  A classic.  And because of the comments surrounding his death I found that his special "The Transformation Age" is also on Youtube which I had never seen (in 8 or so separate videos). It's quintessential Cringe. 
 
 
-[Plane Crazy] (https://www.youtube.com/watch?v=rqxU4nnLkeA)
+[Plane Crazy](https://www.youtube.com/watch?v=rqxU4nnLkeA)
 
-[Bob's The Transformation Age] (https://www.youtube.com/watch?v=5FuUcOF0WdQ)
+[Bob's The Transformation Age](https://www.youtube.com/watch?v=5FuUcOF0WdQ)
 

@@ -22,7 +22,7 @@ One question he asked me I'll never forget. In truth, its a pretty innocuous que
 
 Here it is:
 
-Say you have one string of alphabetic characters, and say you have another, guaranteed smaller string of alphabetic characters. Algorithmically speaking, what's the fastest way to find out if all the characters in the smaller string are in the larger string?
+Say you have two strings of alphabetic characters where one is longer and one is shorter. Algorithmically speaking, what's the fastest way to find out if all the characters in the shorter string are in the longer string?
 
 For example, if the two strings were:
 
@@ -31,31 +31,29 @@ String 1: ABCDEFGHLMNOPQRS
 String 2: DCGSRQPOM
 ```
 
+You'd get **true** as every character in string2 is in string1 (order doesn't matter).  
+Hoever, if the two strings were:
 
-
-
-You'd get true as every character in string2 is in string1. If the two strings were:
-
-
+```
 String 1: ABCDEFGHLMNOPQRS
 String 2: DCGSRQPOZ
+```
 
-
-you'd get false as Z isn't in the first string.
+you'd get now get **false** as **Z** isn't in the first string.
 
 When he asked the question I literally jumped to my feet. Finally, a question I could answer with some confidence. (Note my answer to him was solely considering the worst cases as there are plenty enough nuances there for an interview question).
 
-The naive way to do this operation would be to iterate over the 2nd string once for each character in the 1st string. That'd be O(n*m) in algorithm parlance where n is the length of string1 and m is the length of string2. Given the strings in our above example, thats 16*8 = 128 operations in the worst case.
+The naive way to do this operation would be to iterate over the 2nd string once for each character in the 1st string. That'd be ```O(n*m)``` in algorithm parlance where ```n``` is the length of string1 and ```m``` is the length of string2. Given the strings in our above example, thats 16*8 = 128 operations in the worst case.
 
-A slightly better way would be to sort each string and then do a stepwise iteration of both sorted strings simultaneously. Sorting both strings would be (in the general case) O(m log m) + O(n log n) and the linear scan after that is O(m+n). Again for our strings above, that would be 16*4 + 8*3 = 88 plus a linear scan of both strings at a cost of 16 + 8 = 24. Thats 88 + 24 = 112 total operations. Slightly better. (As the size of the strings grow, this method would start to look better and better)
+A slightly better way would be to sort each string and then do a stepwise iteration of both sorted strings simultaneously. Sorting both strings would be (in the general case) ```O(m log m) + O(n log n)``` and the linear scan after that is ```O(m+n)```. Again for our strings above, that would be 16*4 + 8*3 = 88 plus a linear scan of both strings at a cost of 16 + 8 = 24. Thats 88 + 24 = 112 total operations. Rather more complicated, but algorithmically, slightly better. As the size of the strings grow, this method would start to look better and better.
 
-Finally, I told him the best method would simply be O(n+m). That is, iterate through the first string and put each character in a hashtable (cost of O(n) or 16). Then iterate the 2nd string and query the hashtable for each character you find. If its not found, you don't have a match. That would cost 8 operations - so both operations together is a total of 24 operations. Not bad and way better than the other solutions.
+Finally, I told him the best method would simply be ```O(n+m)```. That is, iterate through the first string and put each character in a hashtable (cost of ```O(n)``` or 16). Then iterate the 2nd string and query the hashtable for each character you find. If its not found, you don't have a match. That would cost 8 operations - so both operations together is a total of 24 operations. Not bad and way better than the other solutions.
 
 Guy wasn't impressed. He showed it by rustling his leather pants a bit. "Can you do better?" he asked.
 
-What the heck? What did this guy want? I looked at the whiteboard and turned back to him. "No, O(n+m) is the best you have - I mean, you can't do this without looking at each character at least once - and this solution is looking at each character precisely once". The more I thought about it, the more I knew I was right.
+What the heck? What did this guy want? I looked at the whiteboard and turned back to him. "No, ```O(n+m)``` is the best you have - I mean, you can't do this without looking at each character at least once - and this solution is looking at each character precisely once". The more I thought about it, the more I knew I was right.
 
-He stepped up to the whiteboard, "What if - given that we have a limited range of possible characters - I assigned each character of the alphabet to a prime number starting with 2 and going up from there. So A would be 2, and B would be 3, and C would be 5, etc. And then I went through the first string and 'multiplied' each character's prime number together. You'd end up with some big number right? And then - what if I iterated through the 2nd string and 'divided' by every character in there. If any division gave a remainder - you knew you didn't have a match. If there was no remainders through the whole process, you knew you had a subset. Would that work?"
+He stepped up to the whiteboard, "What if - given that we have a limited range of possible characters - I assigned each character of the alphabet to a prime number starting with 2 and going up from there. So **A** would be 2, and **B** would be 3, and **C** would be 5, etc. And then I went through the first string and 'multiplied' each character's prime number together. You'd end up with some big number right? And then - what if I iterated through the 2nd string and 'divided' by every character in there. If any division gave a remainder - you knew you didn't have a match. If there was no remainders through the whole process, you knew you had a subset. Would that work?"
 
 Every once in awhile - someone thinks so fantastically far out of your box you really need a minute to catch up. And now that he was standing, his leather pants weren't helping with this.
 
@@ -79,17 +77,17 @@ Now you might think, that in the instant after her asking, and before the moment
 
 So I answered. Calmly. With almost unearthly grace and poise. And with a purposeful demeanor - with, I think, a confidence that only someone with complete and encyclopedic knowledge of this timeless and subtle problem would hold.
 
-I breezed over the naive solution as if it were unworthy. I mentioned the sorting solution as if it were wearing a red-shirt on an early episode of Star Trek. And finally, nonchalantly, almost as if I had invented all things good and algorithmically efficient, mentioned the O(n+m) linear solution.
+I breezed over the naive solution as if it were unworthy. I mentioned the sorting solution as if it were wearing a red-shirt on an early episode of Star Trek. And finally, nonchalantly, almost as if I had invented all things good and algorithmically efficient, mentioned the ```O(n+m)``` linear solution.
 
-Now mind you - despite my apparent poise - the entire time I was fighting my brain who, internally, was screaming at me -- "TELL HER THE PRIME NUMBER SOLUTION YOU DIMWIT !"
+Now mind you - despite my apparent poise - the entire time I was fighting my brain who, internally, was screaming at me -- "TELL HER THE SUPER COOL PRIME NUMBER SOLUTION !"
 
 I ignored his pitiful pleas.
 
 As I finished the linear solution explanation, her head dutifully sank with complete non-surprise and she started writing in her notes. She had probably asked that question a hundred times before and I'd guess most people got it right. She probably wrote "yep. boring interview. got boring string question right. no surprise. boring guy but probable hire"
 
-I waited a moment. I let the suspense build as long as possible. I am truly convinced that even a moment longer would have resulted in my brain throwing itself fully into an embolism resulting in me blurting out unintelligible mis-facts about prime numbers.
+I waited a moment. I let the suspense build as long as possible and finally; I broke the calm.
 
-I broke the calm. "You know, there is another, somewhat cleverer solution"
+"You know, there is another, somewhat cleverer solution"
 
 She lethargically looked up with only a glimmer of hope.
 
