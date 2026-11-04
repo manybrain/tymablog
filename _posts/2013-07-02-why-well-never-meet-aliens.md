@@ -12,6 +12,9 @@ tags:
 ---
 
 If you combine all our current knowledge of statistics and astronomy, it's nearly comical to believe we're the only intelligent life in the universe. It's easy to get lost in the numbers thrown around - there are billions of stars and planets in our galaxy and billions of galaxies. Humans are rather bad at fully understanding such large numbers.
+
+[Hackers News](https://news.ycombinator.com/item?id=5613920)
+
 <!--more-->
 
 
