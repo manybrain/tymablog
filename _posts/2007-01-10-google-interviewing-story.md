@@ -12,6 +12,7 @@ tags:
 ---
 
 A few years ago I was entering the Silicon Valley job market and at that time looking for senior engineering positions. A good rule of thumb about interviewing if you haven't done it in awhile is to at least somewhat accept that you'll probably make a few mistakes on your first few tries. Simply, don't go for your dream job first. There are a million nuances to interviewing that you've forgotten, and a few up-front, not-so-important interviews first will educate (or re-educate) about them.
+[(Hackers News)](https://news.ycombinator.com/item?id=1923298b)
 <!--more-->
 
 One of the first places I interviewed was a company called gofish.com. As far as I know - gofish is an utterly different company now than when I interviewed there. I'm almost sure that everyone I met there no longer works there, so the actual company isn't terribly relevant to the story. But the interviewer is. My technical interview there was with a guy named Guy.
