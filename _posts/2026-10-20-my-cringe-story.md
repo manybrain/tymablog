@@ -4,6 +4,7 @@ title: My Friend Bob Cringely
 description: Bob Cringely died on Oct 3, 2026
 date: 2026-10-20
 excerpt: In 1996, I was a Ph.D. student at Syracuse University. One evening I was sitting in my office and the phone rang, it was Bob Cringely. He spoke quickly, "I just read 7 Java books and yours is the best."
+
 categories:
   - "Bob Cringely"
 tags:
