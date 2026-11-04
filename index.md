@@ -1,6 +1,6 @@
 ---
 layout: home
-list-title: ""
+list_title: ""
 ---
 
 
