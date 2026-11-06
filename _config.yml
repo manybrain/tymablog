@@ -8,3 +8,7 @@ show_excerpts: true
 permalink: /:title/
 plugins:
   - jekyll-feed
+social_links:
+  - title: some githu
+    icon: github
+    url: "https://github.com"
