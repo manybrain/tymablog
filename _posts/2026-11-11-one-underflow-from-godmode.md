@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Just One Underflow from Godmode
+title: One Underflow from Godmode
 description: Unexpected God Mode
 date: 2026-11-11
 excerpt: Some days are bad days to be a kobold. This was one such day.
