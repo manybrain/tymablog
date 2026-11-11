@@ -5,9 +5,9 @@ description: Unexpected God Mode
 date: 2026-11-11
 excerpt: Some days are bad days to be a kobold. This was one such day.
 categories:
-  - "RPG", "Games"
+  - Games
 tags:
-  - "RPG", "Games"
+  - Games
 ---
 
 I’ve never had as much fun playing computer games as I did when I was a teenager. The true gift of being a teenage boy is the impenetrable focus that consumes you when you set your mind to it. Once you're in, so very little can bring you out. It would have been nice to have some level of control over it as it can be a curse to be sure, but once you're in, it's all bliss.
@@ -127,4 +127,3 @@ You can surely say games of today are far more polished and wonderful and all. A
 But I really doubt I’ll ever write a blog entry about playing a modern game. If I did it would be titled "I got the level I expected and then could use the sword I expected and can now do 10% more damage to the new enemies I’m fighting who have 10% more hit-points".
 
 At this point, that doesn't seem to be all that fun either.
-
